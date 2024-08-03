@@ -1,15 +1,61 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+.root{
+    --color__fondo:#c5d0f8;
+    --color_texto__1:#0A3871;
+    --color__texto__2: #343A40;
+    --color__btn__enc:#0A3871;
+    --color__btn__desenc:#D8DFE8;
+    --color__blanco: #ffffff;
+    
+}
+
 *{
     padding: 0;
+    margin: 0;
 }
+
+body{
+    background-color: var(--color__fondo);
+    box-sizing: border-box;
+    
+}
+
 .encabezado{
+    
+}
+
+.logo{
+    padding-top: 2.5rem ;
+    margin-left: 2.5rem;
+    width: 5%;
+}
+
+.contenedor{
+    display: flex;
+    justify-content: space-between;
+       
 
 }
-.contenedor{
 
+.contenedor__1{
+    display: flex;
+    flex-direction: column;
+    padding-top:168px;
+    padding-left: 240px;
+}
+
+.contenedor__2{
+    display: flex;
+    flex-direction: column;
+    background-color: var(--color__blanco);
 }
 
 .text-area{
+    border-style: none;
+    color: var(--color_texto__1);
+    font-weight: 400;
+     
 
 }
 
