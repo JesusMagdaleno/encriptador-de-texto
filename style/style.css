@@ -47,15 +47,9 @@ body{
 .contenedor__1{
     display: flex;
     flex-direction: column;
-    align-items: center;    
-}
-
-.contenedor__2{
-    display: flex;
-    flex-direction: column;
-    background-color: var(--color__blanco);
-    padding-right: 40px;
-    border-radius: 32px;
+    align-items: center;  
+    height: 400px;
+    width: 40px;  
 }
 
 .text-area{
@@ -69,32 +63,39 @@ body{
 ::placeholder{
     color: var(--color__texto__1);
 }
-    .text-area:focus{
-        outline: none;
-    }
-
+.text-area:focus{
+    outline: none;
+}
 .informacion{
 
 }
-
 .botones{
     display: flex;
     gap: 24px;
 }
-
+    
 .btn-encriptar{
     color: var(--color__blanco);
     background-color: var(--color__btn__enc);
     font-size: 1rem;
+    
+}    
 
+.contenedor__2{
+    display: flex;
+    flex-direction: column;
+    background-color: var(--color__blanco);
+    border-radius: 32px;
+    
+    
 }
+
 
 .btn-desencriptar{
 
 }
 
 .mensaje{
-    border-style: none;
 
 }
 
