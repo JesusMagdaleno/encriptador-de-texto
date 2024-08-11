@@ -14,18 +14,20 @@
 *{
     padding: 0;
     margin: 0;
-    line-height: 150%;
+    
 }
 
 body{
     background-color: var(--color__fondo);
     box-sizing: border-box;
-    width: 100%;
+    
+    
     
     
 }
 
 .encabezado{
+    
     
 }
 
@@ -40,24 +42,26 @@ body{
     justify-content: space-between;
     font-family: var(--fuente);
     margin-bottom: 50px;
-    margin-left: 150px;
+    margin-left: 88px;
+    
 
 }
 
 .contenedor__1{
-    display: flex;
+    /** display: flex;
     flex-direction: column;
-    align-items: center;  
-    height: 400px;
-    width: 40px;  
+    align-items: center; **/
+    
 }
 
 .text-area{
+    margin-top: 98px;
     border: none;
     background-color: var(--color__fondo);
     font-size: 2rem;
     text-transform: lowercase;
     color: var(--color__texto__1);
+    
 }
 
 ::placeholder{
@@ -72,34 +76,75 @@ body{
 .botones{
     display: flex;
     gap: 24px;
+    margin-top: 18px;
 }
     
 .btn-encriptar{
+    border: 1px solid var(--color__texto__1);
     color: var(--color__blanco);
     background-color: var(--color__btn__enc);
     font-size: 1rem;
+    cursor: pointer;
+    height: 67px;
+    width: 328px;
+    border-radius: 24px;
     
 }    
 
 .contenedor__2{
-    display: flex;
+   /** display: flex;
     flex-direction: column;
-    background-color: var(--color__blanco);
-    border-radius: 32px;
+    justify-items: center;
+   **/ 
+   
     
     
 }
 
 
 .btn-desencriptar{
-
+    border: 1px solid var(--color__texto__1);
+    color: var(--color__btn__enc);
+    font-size: 1rem;
+    cursor: pointer;
+    height: 67px;
+    width: 328px;
+    border-radius: 24px;
 }
 
 .mensaje{
+    border: none;
+    background-image: url("/img/Muñeco.png");
+    background-repeat: no-repeat;
+    margin-left: 98px;
+    color: var(--color__texto__1);
+    margin-top: 20px;
+    padding-left: 20px;
+    background-color: var(--color__blanco);
+    border-radius: 32px;
+    width: 328px;
+    height: 500px;
 
+   
+
+}
+.mensaje:focus{
+    outline: none;
 }
 
 .copiar{
+    border: 1px solid var(--color__texto__1);
+    color: var(--color__btn__enc);
+    font-size: 1rem;
+    cursor: pointer;
+    height: 67px;
+    width: 328px;
+    margin-top: 12px;
+    margin-left: 105px;
+    position: absolute;
+    border-radius: 24px;
+    
+    
 
 }
 
