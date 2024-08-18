@@ -38,6 +38,7 @@ body{
 }
 
 .contenedor{
+    box-sizing: content-box;
     display: flex;
     justify-content: space-between;
     font-family: var(--fuente);
@@ -149,6 +150,32 @@ body{
 
 }
 
-.footer{
+@media (max-width: 850px){
+    .contenedor{
+        flex-direction: column;
+    }
+    .mensaje{
+        margin-left: auto;
+        width: 688px;
+        background-image: none;
+        
+    }
+
+}
+@media (max-width: 450px){
+    .contenedor{
+        flex-direction: column;
+        padding: 0;
+    }
+
+    .botones{
+        flex-direction: column;
+    }
+    .mensaje{
+        margin-left: 0;
+        width: 688px;
+        background-image: none;
+        
+    }
 
 }
